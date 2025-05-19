@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="6" minorVersionNumber="1" majorServiceNumber="2" buildNumber="8017" updateStamp="_qVOjwitZEfCO8fbh026Low" externalChecksum="7824986:507989954:2146616488">
   <languageCode>fr_FR</languageCode>
-  <ruleset vocabularyUpdateStamp="_It934CsaEfCZQZNoVauLlw" vocabulary="../../../InsuranceSalesProcessAprilCanada.ecore#/">
+  <ruleset vocabularyUpdateStamp="_unN-8DCfEfCb9MJZginYDw" vocabulary="../../../InsuranceSalesProcessAprilCanada.ecore#/">
     <rule>
       <condition/>
     </rule>
@@ -3731,6 +3731,7 @@
       </condition>
       <condition/>
       <condition/>
+      <condition/>
       <action documentingRuleStatements="#//@ruleset/@ruleStatements.0">
         <opaqueExpression expression="co.amountOfInsurance = 0">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="co.amountOfInsurance = 0" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
@@ -4038,11 +4039,11 @@
         </expressionCell>
       </conditionItemList>
     </conditionSection>
-    <ruleSection columnCount="36" scrollColumnLeft="18">
+    <ruleSection columnCount="36" scrollColumnLeft="3">
       <ruleColumnList ruleId="0" columnWidth="100" pRule="#//@ruleset/@rules.0">
         <conditionValueSetCellList/>
       </ruleColumnList>
-      <ruleColumnList ruleId="1" columnWidth="191" pRule="#//@ruleset/@rules.1">
+      <ruleColumnList ruleId="1" columnWidth="304" pRule="#//@ruleset/@rules.1">
         <conditionValueSetCellList valueSet="lobSubCode#CondoPrimaryNamedPeril">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="dw.lobSubCode = 'CondoPrimaryNamedPeril'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="true" cellValue="false">
             <referencedTermList>
