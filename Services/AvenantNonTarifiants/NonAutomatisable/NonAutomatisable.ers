@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="6" minorVersionNumber="1" majorServiceNumber="2" buildNumber="8017" updateStamp="_s45fQCyqEfCqfbeywtcsEA" externalChecksum="7824986:507989954:2146616488">
+<com.corticon.rulesemf.assetmodel:RulesheetAsset xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.corticon.rulesemf.asg="http:///com/corticon/rulesemf/asg.ecore" xmlns:com.corticon.rulesemf.assetmodel="http:///com/corticon/rulesemf/assetmodel.ecore" xmlns:com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable="http:///com/corticon/rulesemf/viewrulemodel/rulesheet/decisiontable.ecore" majorVersionNumber="6" minorVersionNumber="1" majorServiceNumber="2" buildNumber="8017" updateStamp="_BtQZYDSKEfCsPoDf9bLYMQ" externalChecksum="7824986:507989954:2146616488">
   <languageCode>en_US</languageCode>
-  <ruleset vocabularyUpdateStamp="_It934CsaEfCZQZNoVauLlw" vocabulary="../../../InsuranceSalesProcessAprilCanada.ecore#/">
+  <ruleset vocabularyUpdateStamp="_unN-8DCfEfCb9MJZginYDw" vocabulary="../../../InsuranceSalesProcessAprilCanada.ecore#/">
     <rule/>
     <rule>
       <condition>
@@ -36,6 +36,14 @@
         </opaqueExpression>
         <viewExpressions lhs="cookEx.selected" rhs="T"/>
       </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <condition/>
       <condition/>
       <condition/>
@@ -164,6 +172,14 @@
       <condition/>
       <condition/>
       <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <action/>
       <action>
         <opaqueExpression expression="bizEx.applied = T">
@@ -225,6 +241,14 @@
         </opaqueExpression>
         <viewExpressions lhs="boatEx.selected" rhs="T"/>
       </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <condition/>
       <condition/>
       <condition/>
@@ -351,6 +375,14 @@
       <condition/>
       <condition/>
       <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <action/>
       <action/>
       <action/>
@@ -418,6 +450,14 @@
         </opaqueExpression>
         <viewExpressions lhs="ThefLIM.selected" rhs="T"/>
       </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <condition/>
       <condition/>
       <condition/>
@@ -542,6 +582,14 @@
       <condition/>
       <condition/>
       <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <action/>
       <action/>
       <action/>
@@ -615,6 +663,14 @@
         </opaqueExpression>
         <viewExpressions lhs="vacPER.selected" rhs="T"/>
       </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <condition/>
       <condition/>
       <condition/>
@@ -737,6 +793,14 @@
       <condition/>
       <condition/>
       <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <action/>
       <action/>
       <action/>
@@ -816,6 +880,14 @@
         </opaqueExpression>
         <viewExpressions lhs="outbEX.selected" rhs="T"/>
       </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <condition/>
       <condition/>
       <condition/>
@@ -936,6 +1008,14 @@
       <condition/>
       <condition/>
       <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <action/>
       <action/>
       <action/>
@@ -1021,6 +1101,14 @@
         </opaqueExpression>
         <viewExpressions lhs="tranEXT.selected" rhs="T"/>
       </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <condition/>
       <condition/>
       <condition/>
@@ -1139,6 +1227,14 @@
       <condition/>
       <condition/>
       <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <action/>
       <action/>
       <action/>
@@ -1199,11 +1295,11 @@
       <condition/>
       <condition/>
       <condition>
-        <opaqueExpression expression="oilEXF.coverageCode = 'OIL-EXF'">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEXF.coverageCode = 'OIL-EXF'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="oilEX.coverageCode = 'OIL-EX'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEX.coverageCode = 'OIL-EX'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="oilEXF.coverageCode">
-                <parentTerm text="oilEXF" datatype="Coverages" termtype="ENTITY" fulltext="oilEXF" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="oilEX.coverageCode">
+                <parentTerm text="oilEX" datatype="Coverages" termtype="ENTITY" fulltext="oilEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
                   <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -1212,14 +1308,14 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="oilEXF.coverageCode" rhs="'OIL-EXF'"/>
+        <viewExpressions lhs="oilEX.coverageCode" rhs="'OIL-EX'"/>
       </condition>
       <condition>
-        <opaqueExpression expression="(oilEXF.selected)=true">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( oilEXF.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <opaqueExpression expression="(oilEX.selected)=true">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( oilEX.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="oilEXF.selected">
-                <parentTerm text="oilEXF" datatype="Coverages" termtype="ENTITY" fulltext="oilEXF" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="oilEX.selected">
+                <parentTerm text="oilEX" datatype="Coverages" termtype="ENTITY" fulltext="oilEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
                   <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -1228,8 +1324,16 @@
             </referencedTermList>
           </parserOutput>
         </opaqueExpression>
-        <viewExpressions lhs="oilEXF.selected" rhs="T"/>
+        <viewExpressions lhs="oilEX.selected" rhs="T"/>
       </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <condition/>
       <condition/>
       <condition/>
@@ -1255,11 +1359,11 @@
       <action/>
       <action/>
       <action>
-        <opaqueExpression expression="oilEXF.applied = T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEXF.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+        <opaqueExpression expression="oilEX.applied = T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEX.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="oilEXF.applied">
-                <parentTerm text="oilEXF" datatype="Coverages" termtype="ENTITY" fulltext="oilEXF" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="oilEX.applied">
+                <parentTerm text="oilEX" datatype="Coverages" termtype="ENTITY" fulltext="oilEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
                   <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -1267,7 +1371,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="oilEXF" datatype="Coverages" termtype="ENTITY" fulltext="oilEXF" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
+              <terms text="oilEX" datatype="Coverages" termtype="ENTITY" fulltext="oilEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
                 <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                   <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                 </parentTerm>
@@ -1336,6 +1440,14 @@
         </opaqueExpression>
         <viewExpressions lhs="llPREM.selected" rhs="T"/>
       </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <condition/>
       <condition/>
       <condition/>
@@ -1451,6 +1563,14 @@
       <condition/>
       <condition/>
       <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <action/>
       <action/>
       <action/>
@@ -1551,6 +1671,14 @@
         </opaqueExpression>
         <viewExpressions lhs="swbEX.selected" rhs="T"/>
       </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <condition/>
       <condition/>
       <condition/>
@@ -1664,6 +1792,14 @@
       <condition/>
       <condition/>
       <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <action/>
       <action/>
       <action/>
@@ -1770,6 +1906,14 @@
         </opaqueExpression>
         <viewExpressions lhs="acvAB.selected" rhs="T"/>
       </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <condition/>
       <condition/>
       <action/>
@@ -1881,6 +2025,14 @@
         </opaqueExpression>
         <viewExpressions lhs="smkWTY.selected" rhs="T"/>
       </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
       <action/>
       <action/>
       <action/>
@@ -1913,6 +2065,488 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="smkWTY" datatype="Coverages" termtype="ENTITY" fulltext="smkWTY" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.18">
+                <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+    </rule>
+    <rule>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition>
+        <opaqueExpression expression="animEX.coverageCode = 'ANIM-EX'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="animEX.coverageCode = 'ANIM-EX'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="animEX.coverageCode">
+                <parentTerm text="animEX" datatype="Coverages" termtype="ENTITY" fulltext="animEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="animEX.coverageCode" rhs="'ANIM-EX'"/>
+      </condition>
+      <condition>
+        <opaqueExpression expression="(animEX.selected)=true">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( animEX.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="animEX.selected">
+                <parentTerm text="animEX" datatype="Coverages" termtype="ENTITY" fulltext="animEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="animEX.selected" rhs="T"/>
+      </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action>
+        <opaqueExpression expression="animEX.applied = T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="animEX.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="animEX.applied">
+                <parentTerm text="animEX" datatype="Coverages" termtype="ENTITY" fulltext="animEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="animEX" datatype="Coverages" termtype="ENTITY" fulltext="animEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19">
+                <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+    </rule>
+    <rule>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition>
+        <opaqueExpression expression="condEXT.coverageCode = 'COND-EXT'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="condEXT.coverageCode = 'COND-EXT'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="condEXT.coverageCode">
+                <parentTerm text="condEXT" datatype="Coverages" termtype="ENTITY" fulltext="condEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="condEXT.coverageCode" rhs="'COND-EXT'"/>
+      </condition>
+      <condition>
+        <opaqueExpression expression="(condEXT.selected)=true">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( condEXT.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="condEXT.selected">
+                <parentTerm text="condEXT" datatype="Coverages" termtype="ENTITY" fulltext="condEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="condEXT.selected" rhs="T"/>
+      </condition>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action>
+        <opaqueExpression expression="condEXT.applied = T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="condEXT.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="condEXT.applied">
+                <parentTerm text="condEXT" datatype="Coverages" termtype="ENTITY" fulltext="condEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="condEXT" datatype="Coverages" termtype="ENTITY" fulltext="condEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20">
+                <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+    </rule>
+    <rule>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition>
+        <opaqueExpression expression="landEXT.coverageCode = 'LAND-EXT'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="landEXT.coverageCode = 'LAND-EXT'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="landEXT.coverageCode">
+                <parentTerm text="landEXT" datatype="Coverages" termtype="ENTITY" fulltext="landEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="landEXT.coverageCode" rhs="'LAND-EXT'"/>
+      </condition>
+      <condition>
+        <opaqueExpression expression="(landEXT.selected)=true">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( landEXT.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="landEXT.selected">
+                <parentTerm text="landEXT" datatype="Coverages" termtype="ENTITY" fulltext="landEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="landEXT.selected" rhs="T"/>
+      </condition>
+      <condition/>
+      <condition/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action>
+        <opaqueExpression expression="landEXT.applied = T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="landEXT.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="landEXT.applied">
+                <parentTerm text="landEXT" datatype="Coverages" termtype="ENTITY" fulltext="landEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="landEXT" datatype="Coverages" termtype="ENTITY" fulltext="landEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21">
+                <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+      </action>
+    </rule>
+    <rule>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition/>
+      <condition>
+        <opaqueExpression expression="llNI.coverageCode = 'LL-NI'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="llNI.coverageCode = 'LL-NI'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="llNI.coverageCode">
+                <parentTerm text="llNI" datatype="Coverages" termtype="ENTITY" fulltext="llNI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="llNI.coverageCode" rhs="'LL-NI'"/>
+      </condition>
+      <condition>
+        <opaqueExpression expression="(llNI.selected)=true">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( llNI.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="llNI.selected">
+                <parentTerm text="llNI" datatype="Coverages" termtype="ENTITY" fulltext="llNI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </opaqueExpression>
+        <viewExpressions lhs="llNI.selected" rhs="T"/>
+      </condition>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action/>
+      <action>
+        <opaqueExpression expression="llNI.applied = T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="llNI.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="llNI.applied">
+                <parentTerm text="llNI" datatype="Coverages" termtype="ENTITY" fulltext="llNI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="llNI" datatype="Coverages" termtype="ENTITY" fulltext="llNI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22">
                 <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings" variable="#//@ruleset/@logicalVariables.0/@extension.0">
                   <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                 </parentTerm>
@@ -1997,7 +2631,7 @@
           <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/selected"/>
         </extension>
         <extension explicit="true" association="true" entity="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages" traversedAssocRole="../../../InsuranceSalesProcessAprilCanada.ecore#//Dwellings/Coverages">
-          <alias value="oilEXF"/>
+          <alias value="oilEX"/>
           <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/applied"/>
           <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/coverageCode"/>
           <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/selected"/>
@@ -2038,10 +2672,34 @@
           <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/coverageCode"/>
           <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/selected"/>
         </extension>
+        <extension explicit="true" association="true" entity="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages" traversedAssocRole="../../../InsuranceSalesProcessAprilCanada.ecore#//Dwellings/Coverages">
+          <alias value="animEX"/>
+          <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/coverageCode"/>
+          <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/selected"/>
+          <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/applied"/>
+        </extension>
+        <extension explicit="true" association="true" entity="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages" traversedAssocRole="../../../InsuranceSalesProcessAprilCanada.ecore#//Dwellings/Coverages">
+          <alias value="condEXT"/>
+          <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/coverageCode"/>
+          <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/selected"/>
+          <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/applied"/>
+        </extension>
+        <extension explicit="true" association="true" entity="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages" traversedAssocRole="../../../InsuranceSalesProcessAprilCanada.ecore#//Dwellings/Coverages">
+          <alias value="landEXT"/>
+          <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/coverageCode"/>
+          <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/selected"/>
+          <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/applied"/>
+        </extension>
+        <extension explicit="true" association="true" entity="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages" traversedAssocRole="../../../InsuranceSalesProcessAprilCanada.ecore#//Dwellings/Coverages">
+          <alias value="llNI"/>
+          <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/applied"/>
+          <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/coverageCode"/>
+          <referencedAttributes attribute="../../../InsuranceSalesProcessAprilCanada.ecore#//Coverages/selected"/>
+        </extension>
       </extension>
     </logicalVariable>
   </ruleset>
-  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="13" sashWeightConditionsIf="18">
+  <rulesheetViewList xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:DecisionTable" advanced="true" sashWeightAdvancedView="21" sashWeightConditionsIf="18">
     <actionSection rowCount="50" columnWidthFactor="0.5">
       <actionItemList>
         <valueSetCell/>
@@ -2237,11 +2895,11 @@
       </actionItemList>
       <actionItemList>
         <valueSetCell/>
-        <expressionCell external="oilEXF.applied">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEXF.applied" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="oilEX.applied">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEX.applied" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="oilEXF.applied">
-                <parentTerm text="oilEXF" datatype="Coverages" termtype="ENTITY" fulltext="oilEXF" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="oilEX.applied">
+                <parentTerm text="oilEX" datatype="Coverages" termtype="ENTITY" fulltext="oilEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
                   <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -2347,11 +3005,75 @@
           </parserOutput>
         </expressionCell>
       </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="animEX.applied">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="animEX.applied" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="animEX.applied">
+                <parentTerm text="animEX" datatype="Coverages" termtype="ENTITY" fulltext="animEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="condEXT.applied">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="condEXT.applied" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="condEXT.applied">
+                <parentTerm text="condEXT" datatype="Coverages" termtype="ENTITY" fulltext="condEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="landEXT.applied">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="landEXT.applied" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="landEXT.applied">
+                <parentTerm text="landEXT" datatype="Coverages" termtype="ENTITY" fulltext="landEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
+      <actionItemList>
+        <valueSetCell/>
+        <expressionCell external="llNI.applied">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="llNI.applied" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="llNI.applied">
+                <parentTerm text="llNI" datatype="Coverages" termtype="ENTITY" fulltext="llNI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </actionItemList>
     </actionSection>
     <scopeSection>
       <rootNode>
         <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeEntity" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0">
-          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
+          <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0">
             <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@referencedAttributes.0"/>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.0/@referencedAttributes.1"/>
@@ -2432,7 +3154,7 @@
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.15/@referencedAttributes.1"/>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.15/@referencedAttributes.2"/>
             </children>
-            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" expanded="true" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.16">
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.16">
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.16/@referencedAttributes.0"/>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.16/@referencedAttributes.1"/>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.16/@referencedAttributes.2"/>
@@ -2447,13 +3169,33 @@
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.18/@referencedAttributes.1"/>
               <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.18/@referencedAttributes.2"/>
             </children>
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19/@referencedAttributes.0"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19/@referencedAttributes.1"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19/@referencedAttributes.2"/>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20/@referencedAttributes.0"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20/@referencedAttributes.1"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20/@referencedAttributes.2"/>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21/@referencedAttributes.0"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21/@referencedAttributes.1"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21/@referencedAttributes.2"/>
+            </children>
+            <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAssociation" logicalVariable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22">
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22/@referencedAttributes.0"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22/@referencedAttributes.1"/>
+              <children xsi:type="com.corticon.rulesemf.viewrulemodel.rulesheet.decisiontable:ScopeAttribute" referencedAttribute="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22/@referencedAttributes.2"/>
+            </children>
           </children>
         </children>
       </rootNode>
     </scopeSection>
     <filterSection rowCount="50"/>
     <ruleStatementSection rowCount="50" columnWidthReference="50" columnWidthPostSeverity="75" columnWidthAlias="100" columnWidthID="50" columnWidthText="600" columnWidthRuleName="100" columnWidthRuleLink="100" columnWidthSourceName="100" columnWidthSourceLink="100" columnWidthCategory="100" columnWidthComments="400"/>
-    <conditionSection rowCount="55" columnWidthFactor="0.5">
+    <conditionSection rowCount="65" scrollRowTop="12" columnWidthFactor="0.5">
       <conditionItemList>
         <valueSetCell/>
         <expressionCell external="cookEx.coverageCode">
@@ -2840,11 +3582,11 @@
       </conditionItemList>
       <conditionItemList>
         <valueSetCell/>
-        <expressionCell external="oilEXF.coverageCode">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEXF.coverageCode" datatype="String" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="oilEX.coverageCode">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEX.coverageCode" datatype="String" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="oilEXF.coverageCode">
-                <parentTerm text="oilEXF" datatype="Coverages" termtype="ENTITY" fulltext="oilEXF" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="oilEX.coverageCode">
+                <parentTerm text="oilEX" datatype="Coverages" termtype="ENTITY" fulltext="oilEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
                   <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -2856,11 +3598,11 @@
       </conditionItemList>
       <conditionItemList>
         <valueSetCell/>
-        <expressionCell external="oilEXF.selected">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEXF.selected" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <expressionCell external="oilEX.selected">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEX.selected" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="oilEXF.selected">
-                <parentTerm text="oilEXF" datatype="Coverages" termtype="ENTITY" fulltext="oilEXF" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="oilEX.selected">
+                <parentTerm text="oilEX" datatype="Coverages" termtype="ENTITY" fulltext="oilEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
                   <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -3062,8 +3804,136 @@
           </parserOutput>
         </expressionCell>
       </conditionItemList>
+      <conditionItemList>
+        <valueSetCell/>
+        <expressionCell external="animEX.coverageCode">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="animEX.coverageCode" datatype="String" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="animEX.coverageCode">
+                <parentTerm text="animEX" datatype="Coverages" termtype="ENTITY" fulltext="animEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </conditionItemList>
+      <conditionItemList>
+        <valueSetCell/>
+        <expressionCell external="animEX.selected">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="animEX.selected" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="animEX.selected">
+                <parentTerm text="animEX" datatype="Coverages" termtype="ENTITY" fulltext="animEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </conditionItemList>
+      <conditionItemList>
+        <valueSetCell/>
+        <expressionCell external="condEXT.coverageCode">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="condEXT.coverageCode" datatype="String" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="condEXT.coverageCode">
+                <parentTerm text="condEXT" datatype="Coverages" termtype="ENTITY" fulltext="condEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </conditionItemList>
+      <conditionItemList>
+        <valueSetCell/>
+        <expressionCell external="condEXT.selected">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="condEXT.selected" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="condEXT.selected">
+                <parentTerm text="condEXT" datatype="Coverages" termtype="ENTITY" fulltext="condEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </conditionItemList>
+      <conditionItemList>
+        <valueSetCell/>
+        <expressionCell external="landEXT.coverageCode">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="landEXT.coverageCode" datatype="String" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="landEXT.coverageCode">
+                <parentTerm text="landEXT" datatype="Coverages" termtype="ENTITY" fulltext="landEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </conditionItemList>
+      <conditionItemList>
+        <valueSetCell/>
+        <expressionCell external="landEXT.selected">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="landEXT.selected" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="landEXT.selected">
+                <parentTerm text="landEXT" datatype="Coverages" termtype="ENTITY" fulltext="landEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </conditionItemList>
+      <conditionItemList>
+        <valueSetCell/>
+        <expressionCell external="llNI.coverageCode">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="llNI.coverageCode" datatype="String" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="llNI.coverageCode">
+                <parentTerm text="llNI" datatype="Coverages" termtype="ENTITY" fulltext="llNI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </conditionItemList>
+      <conditionItemList>
+        <valueSetCell/>
+        <expressionCell external="llNI.selected">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="llNI.selected" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="llNI.selected">
+                <parentTerm text="llNI" datatype="Coverages" termtype="ENTITY" fulltext="llNI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </expressionCell>
+      </conditionItemList>
     </conditionSection>
-    <ruleSection columnCount="20">
+    <ruleSection columnCount="24" scrollColumnLeft="5">
       <ruleColumnList ruleId="0" columnWidth="100" pRule="#//@ruleset/@rules.0"/>
       <ruleColumnList ruleId="1" columnWidth="100" pRule="#//@ruleset/@rules.1">
         <conditionValueSetCellList valueSet="'COOK-EX'">
@@ -3092,6 +3962,14 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
@@ -3212,6 +4090,14 @@
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <actionValueSetCellList/>
         <actionValueSetCellList valueSet="T">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="bizEx.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
@@ -3265,6 +4151,14 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
@@ -3383,6 +4277,14 @@
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
@@ -3442,6 +4344,14 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
@@ -3558,6 +4468,14 @@
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
@@ -3623,6 +4541,14 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
@@ -3737,6 +4663,14 @@
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
@@ -3808,6 +4742,14 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
@@ -3920,6 +4862,14 @@
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
@@ -3997,6 +4947,14 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
@@ -4107,6 +5065,14 @@
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
@@ -4164,11 +5130,11 @@
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
-        <conditionValueSetCellList valueSet="'OIL-EXF'">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEXF.coverageCode = 'OIL-EXF'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+        <conditionValueSetCellList valueSet="'OIL-EX'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEX.coverageCode = 'OIL-EX'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="oilEXF.coverageCode">
-                <parentTerm text="oilEXF" datatype="Coverages" termtype="ENTITY" fulltext="oilEXF" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="oilEX.coverageCode">
+                <parentTerm text="oilEX" datatype="Coverages" termtype="ENTITY" fulltext="oilEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
                   <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -4178,10 +5144,10 @@
           </parserOutput>
         </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( oilEXF.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( oilEX.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
             <referencedTermList>
-              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="oilEXF.selected">
-                <parentTerm text="oilEXF" datatype="Coverages" termtype="ENTITY" fulltext="oilEXF" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="oilEX.selected">
+                <parentTerm text="oilEX" datatype="Coverages" termtype="ENTITY" fulltext="oilEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.12">
                   <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
                   </parentTerm>
@@ -4190,6 +5156,14 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
@@ -4215,10 +5189,10 @@
         <actionValueSetCellList/>
         <actionValueSetCellList/>
         <actionValueSetCellList valueSet="T">
-          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEXF.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="oilEX.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
             <modifiedTermList>
-              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="oilEXF.applied">
-                <parentTerm text="oilEXF" datatype="Coverages" termtype="ENTITY" fulltext="oilEXF">
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="oilEX.applied">
+                <parentTerm text="oilEX" datatype="Coverages" termtype="ENTITY" fulltext="oilEX">
                   <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
                     <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                   </parentTerm>
@@ -4226,7 +5200,7 @@
               </terms>
             </modifiedTermList>
             <referencedTermList>
-              <terms text="oilEXF" datatype="Coverages" termtype="ENTITY" fulltext="oilEXF">
+              <terms text="oilEX" datatype="Coverages" termtype="ENTITY" fulltext="oilEX">
                 <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
                   <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                 </parentTerm>
@@ -4288,6 +5262,14 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
@@ -4395,6 +5377,14 @@
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
@@ -4487,6 +5477,14 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
@@ -4592,6 +5590,14 @@
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
@@ -4692,6 +5698,14 @@
         </conditionValueSetCellList>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
@@ -4730,7 +5744,7 @@
           </parserOutput>
         </actionValueSetCellList>
       </ruleColumnList>
-      <ruleColumnList ruleId="19" columnWidth="112" pRule="#//@ruleset/@rules.19">
+      <ruleColumnList ruleId="19" columnWidth="100" pRule="#//@ruleset/@rules.19">
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
         <conditionValueSetCellList valueSet="-"/>
@@ -4793,6 +5807,14 @@
             </referencedTermList>
           </parserOutput>
         </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
         <actionValueSetCellList/>
@@ -4824,6 +5846,456 @@
             </modifiedTermList>
             <referencedTermList>
               <terms text="smkWTY" datatype="Coverages" termtype="ENTITY" fulltext="smkWTY">
+                <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+      </ruleColumnList>
+      <ruleColumnList ruleId="20" columnWidth="100" pRule="#//@ruleset/@rules.20">
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="'ANIM-EX'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="animEX.coverageCode = 'ANIM-EX'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="animEX.coverageCode">
+                <parentTerm text="animEX" datatype="Coverages" termtype="ENTITY" fulltext="animEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( animEX.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="animEX.selected">
+                <parentTerm text="animEX" datatype="Coverages" termtype="ENTITY" fulltext="animEX" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.19">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList valueSet="T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="animEX.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="animEX.applied">
+                <parentTerm text="animEX" datatype="Coverages" termtype="ENTITY" fulltext="animEX">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="animEX" datatype="Coverages" termtype="ENTITY" fulltext="animEX">
+                <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+      </ruleColumnList>
+      <ruleColumnList ruleId="21" columnWidth="100" pRule="#//@ruleset/@rules.21">
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="'COND-EXT'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="condEXT.coverageCode = 'COND-EXT'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="condEXT.coverageCode">
+                <parentTerm text="condEXT" datatype="Coverages" termtype="ENTITY" fulltext="condEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( condEXT.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="condEXT.selected">
+                <parentTerm text="condEXT" datatype="Coverages" termtype="ENTITY" fulltext="condEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.20">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList valueSet="T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="condEXT.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="condEXT.applied">
+                <parentTerm text="condEXT" datatype="Coverages" termtype="ENTITY" fulltext="condEXT">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="condEXT" datatype="Coverages" termtype="ENTITY" fulltext="condEXT">
+                <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+      </ruleColumnList>
+      <ruleColumnList ruleId="22" columnWidth="100" pRule="#//@ruleset/@rules.22">
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="'LAND-EXT'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="landEXT.coverageCode = 'LAND-EXT'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="landEXT.coverageCode">
+                <parentTerm text="landEXT" datatype="Coverages" termtype="ENTITY" fulltext="landEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( landEXT.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="landEXT.selected">
+                <parentTerm text="landEXT" datatype="Coverages" termtype="ENTITY" fulltext="landEXT" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.21">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList valueSet="T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="landEXT.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="landEXT.applied">
+                <parentTerm text="landEXT" datatype="Coverages" termtype="ENTITY" fulltext="landEXT">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="landEXT" datatype="Coverages" termtype="ENTITY" fulltext="landEXT">
+                <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                  <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </actionValueSetCellList>
+      </ruleColumnList>
+      <ruleColumnList ruleId="23" columnWidth="100" pRule="#//@ruleset/@rules.23">
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="-"/>
+        <conditionValueSetCellList valueSet="'LL-NI'">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="llNI.coverageCode = 'LL-NI'" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="coverageCode" datatype="String" termtype="ATTRIBUTE" fulltext="llNI.coverageCode">
+                <parentTerm text="llNI" datatype="Coverages" termtype="ENTITY" fulltext="llNI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
+        <conditionValueSetCellList valueSet="T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="( llNI.selected ) = true" datatype="Boolean" expressiontype="EXPRESSION" enumeration="false" cellValue="false">
+            <referencedTermList>
+              <terms text="selected" datatype="Boolean" termtype="ATTRIBUTE" fulltext="llNI.selected">
+                <parentTerm text="llNI" datatype="Coverages" termtype="ENTITY" fulltext="llNI" variable="#//@ruleset/@logicalVariables.0/@extension.0/@extension.22">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request" variable="#//@ruleset/@logicalVariables.0"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </referencedTermList>
+          </parserOutput>
+        </conditionValueSetCellList>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList/>
+        <actionValueSetCellList valueSet="T">
+          <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="llNI.applied = T" datatype="Boolean" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
+            <modifiedTermList>
+              <terms text="applied" datatype="Boolean" termtype="ATTRIBUTE" fulltext="llNI.applied">
+                <parentTerm text="llNI" datatype="Coverages" termtype="ENTITY" fulltext="llNI">
+                  <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
+                    <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
+                  </parentTerm>
+                </parentTerm>
+              </terms>
+            </modifiedTermList>
+            <referencedTermList>
+              <terms text="llNI" datatype="Coverages" termtype="ENTITY" fulltext="llNI">
                 <parentTerm text="Dwellings" datatype="Dwellings" termtype="ENTITY" fulltext="Request.Dwellings">
                   <parentTerm text="Request" datatype="Request" termtype="ENTITY" fulltext="Request"/>
                 </parentTerm>
