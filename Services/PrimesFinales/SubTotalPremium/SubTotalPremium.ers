@@ -3404,7 +3404,7 @@
         </expressionCell>
       </conditionItemList>
     </conditionSection>
-    <ruleSection columnCount="27">
+    <ruleSection columnCount="27" scrollColumnLeft="6">
       <ruleColumnList ruleId="0" columnWidth="337" pRule="#//@ruleset/@rules.0">
         <actionValueSetCellList valueSet="ca.premiumWithLiabilityPremiumAndContent*ra.rateValue+co.coveragePremium">
           <parserOutput xsi:type="com.corticon.rulesemf.asg:Expression" text="ca.subTotalPremium = ca.premiumWithLiabilityPremiumAndContent * ra.rateValue + co.coveragePremium" datatype="Decimal" expressiontype="ASSIGNMENT" enumeration="false" cellValue="false">
